@@ -20,10 +20,12 @@ clear: both;
 
 .grains img {
   width: 100px;
+  float: left;
 }
 
 .grains h2 {
-
+  padding: 0;
+  margin: 0;
 }
 
 .grains p {
