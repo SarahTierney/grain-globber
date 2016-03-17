@@ -1,10 +1,9 @@
-var $ul = $('ul');
-
-grains.forEach(function (grain) {
-  var $name = $('<h2>');
-  var $img = $('<img>');
-  var $desc = $('<p>');
+grains.forEach(function (item) {
+  var $ul = $('ul');
   var $li = $('<li>');
+  var $img = $('<img>');
+  var $p = $('<p>');
+  var $h2 = $('<h2>');
 
   $img.attr('src', 'images/' + grain.img);
   $desc.html(grain.desc);

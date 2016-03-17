@@ -14,8 +14,8 @@ html {
 }
 
 .grains li {
-padding-bottom: 1rem;
-clear: both;
+  padding-bottom: 1rem;
+  clear: both;
 }
 
 .grains img {
@@ -29,5 +29,6 @@ clear: both;
 }
 
 .grains p {
-
+  font-style: italic;
+  margin: 0;
 }
