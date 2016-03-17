@@ -5,12 +5,12 @@ grains.forEach(function (item) {
   var $p = $('<p>');
   var $h2 = $('<h2>');
 
-  $img.attr('src', 'images/' + grain.img);
-  $desc.html(grain.desc);
-  $name.html(grain.name);
-
+  $ul.append($li);
+  $img.attr('src', 'images/' + item.img);
   $li.append($img);
-  $li.append($name);
-  $li.append($desc);
-  $li.append($li);
+  $h2.html(item.name);
+  $li.append($h2);
+  $p.html(item.desc);
+  $li.append($p);
+
 });
