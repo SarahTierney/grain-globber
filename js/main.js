@@ -12,4 +12,6 @@ grains.forEach(function (grain) {
 
   $li.append($img);
   $li.append($name);
-})
+  $li.append($desc);
+  $li.append($li);
+});
