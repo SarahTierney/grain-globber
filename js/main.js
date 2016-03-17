@@ -6,7 +6,7 @@ grains.forEach(function (grain) {
   var $desc = $('<p>');
   var $li = $('<li>');
 
-  $img.attr('src', 'images/' +grain.img);
+  $img.attr('src', 'images/' + grain.img);
   $desc.html(grain.desc);
   $name.html(grain.name);
 
